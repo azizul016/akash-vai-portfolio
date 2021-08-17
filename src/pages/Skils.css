@@ -1,0 +1,34 @@
+.icon-transition {
+    transition: 0.4s;
+  }
+  
+  .icon-transition:hover {
+    transform: translateY(-1rem);
+  }
+
+  .alignment {
+    margin-right: 0px !important;
+  }
+
+
+
+  /* //blog css */
+  .blog-wrapper {
+    margin-top: 50px;
+  }
+  /* .blogs:hover {
+    transform: translateY(-10px);
+  } */
+  .blog-container:hover {
+    transform: rotate(90deg) !important;
+  }
+  .swiper-button-next,
+  .swiper-container-rtl .swiper-button-prev {
+    right: 10px;
+    left: auto;
+    top: 35% !important;
+  }
+  .swiper-button-prev,
+  .swiper-container-rtl .swiper-button-next {
+    top: 35% !important;
+  }
