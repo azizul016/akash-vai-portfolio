@@ -30,25 +30,25 @@ export default function Navigation() {
   return (
     <Navbar
       collapseOnSelect
-      expand="lg"
-      bg="dark"
-      variant="dark"
-      id="sideNav"
-      className="fixed-top"
+      expand='lg'
+      bg='dark'
+      variant='dark'
+      id='sideNav'
+      className='fixed-top'
     >
-      <Navbar.Brand href="#home">
-        <span className="d-block d-lg-none">Azizul Haque</span>
-        <span className="d-none d-lg-block">
+      <Navbar.Brand href='#home'>
+        <span className='d-block d-lg-none'>Azizul Haque</span>
+        <span className='d-none d-lg-block'>
           <img
-            className="img-fluid img-profile rounded-circle mx-auto mb-2"
+            className='img-fluid img-profile rounded-circle mx-auto mb-2'
             src={azizul}
-            alt="Azizul Haque"
+            alt='Azizul Haque'
           />
         </span>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-      <Navbar.Collapse id="responsive-navbar-nav">
-        <Nav className="mr-auto">
+      <Navbar.Toggle aria-controls='responsive-navbar-nav' />
+      <Navbar.Collapse id='responsive-navbar-nav'>
+        <Nav className='mr-auto'>
           {navItems.map((navItem, index) => (
             <Nav.Link href={navItem.href} key={index}>
               {navItem.name}
